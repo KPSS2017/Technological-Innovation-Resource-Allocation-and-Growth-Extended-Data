@@ -45,11 +45,13 @@ For the patent-permco-permno match data, the variable definitions are:
 
 	c)	Re-estimation of the parameters needed to compute the KPSS value: 
 
-	- the parameter gamma is re-estimated in the full sample to 2019: the new estimate is 0.0155, while the estimate of gamma in QJE paper is 0.0146.
+	- the parameter gamma is re-estimated in the full sample to 2019: the new estimate is 0.0139, while the estimate of gamma in QJE paper is 0.0146.
 
 	- stock return volatility is now computed over the last 52 weeks (as opposed to the previous calendar year in the QJE paper)
 
 4. The number of forward citations is updated to 2019.
+
+5. The version released on August 9, 2020 is the latest data that updates and adds data for the second half of 2019.
 
 
 ## Contact:
