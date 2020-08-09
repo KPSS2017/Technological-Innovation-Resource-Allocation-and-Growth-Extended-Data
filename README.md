@@ -5,6 +5,8 @@ This data provides an updated data series for KPSS values and forward citations 
 
 ## Data
 
+The version released on August 9, 2020 is the latest data that updates and adds data for the second half of 2019.
+
 We provide two data sets constructed from the paper here:
 
 - **KPSS_2019_public.csv**: Patent level panel data from 1926 to 2019
@@ -50,8 +52,6 @@ For the patent-permco-permno match data, the variable definitions are:
 	- stock return volatility is now computed over the last 52 weeks (as opposed to the previous calendar year in the QJE paper)
 
 4. The number of forward citations is updated to 2019.
-
-5. The version released on August 9, 2020 is the latest data that updates and adds data for the second half of 2019.
 
 
 ## Contact:
