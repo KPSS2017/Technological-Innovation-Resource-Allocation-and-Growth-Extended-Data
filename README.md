@@ -5,7 +5,13 @@ This data provides an updated data series for KPSS values and forward citations 
 
 ## Data
 
+#### Data Versions:
+
 The version released on August 9, 2020 is the latest data that updates and adds data for the second half of 2019.
+
+The version released on August 21, 2020 adds filing date information for each patent.
+
+#### Data Description:
 
 We provide two data sets constructed from the paper here:
 
@@ -19,7 +25,8 @@ For the patent level panel data, the variable definitions are:
 | :---------------|:------------------------------------------------- | 
 | patent_num     | Patent number                                      |
 | permno         | CRSP permno                                        |  
-| issue_date     | Issue date of patent (mm/dd/yyyy)                  |    
+| issue_date     | Issue date of patent (mm/dd/yyyy)                  |  
+| filing_date     | Filing date of patent application(mm/dd/yyyy)              |   
 | xi_nominal    | Value of innovation(&xi;) in millions of nominal dollars |
 | xi_real  | Value of innovation(&xi;) deflated to 1982 (million) dollars using the CPI|
 | cites | Forward citations |
