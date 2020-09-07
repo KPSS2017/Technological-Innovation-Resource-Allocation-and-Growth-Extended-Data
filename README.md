@@ -11,6 +11,8 @@ The version released on August 9, 2020 is the latest data that updates and adds 
 
 The version released on August 21, 2020 adds filing date information for each patent.
 
+The version released on September 6, 2020 updates filing date information for each patent.
+
 #### Data Description:
 
 We provide two data sets constructed from the paper here:
