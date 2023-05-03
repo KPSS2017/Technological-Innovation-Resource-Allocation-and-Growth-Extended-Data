@@ -73,7 +73,9 @@ For the patent-CPC class match data, the variable definitions are:
 
 3. During 2022, there are in total 325,023 newly issued patents by USPTO. Among them, 87,312 patents are finally added to our KPSS dataset after being matched with public firm information and excluding 31,145 patents that are linked to multiple stocks.
 
-4. The number of forward citations is also updated to 2022. 
+4. During 2022, 355 patents do not have CPC class information. These patents are not included in the match patent-CPC dataset. Till 2022, there are in total 106,997 patents do not have CPC class information.
+
+5. The number of forward citations is also updated to 2022. 
 
 
 ## Contact:
