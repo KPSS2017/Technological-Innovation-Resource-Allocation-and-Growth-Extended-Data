@@ -1,4 +1,4 @@
-# Extended Data (till 2020) following Kogan, L., Papanikolaou, D., Seru, A. and Stoffman, N., 2017 
+# Extended Data (till 2022) following Kogan, L., Papanikolaou, D., Seru, A. and Stoffman, N., 2017 
  
 This data provides an updated data series for KPSS values and forward citations, a patent number to the CRSP "permno" match and a patent number to CPC class match following the paper **Kogan, L., Papanikolaou, D., Seru, A. and Stoffman, N., 2017. Technological innovation, resource allocation, and growth. Quarterly Journal of Economics, 132(2), pp. 665-712.** The paper is available at https://academic.oup.com/qje/article/132/2/665/3076284.
  
@@ -15,19 +15,21 @@ The version released on September 6, 2020 updates filing date information for ea
 
 The version released on June 8, 2021 is the latest data that updates and adds data for 2020.
 
+The version release on May 2, 2023 is the latest data that updates until the end of 2022.
+
 #### Data Description:
 
 We provide three data sets constructed from the paper here:
 
-- **KPSS_2020_public.csv**: Patent level panel data from 1926 to 2020
-- **patent_permco_permno_match_public_2020.csv**: Patent-CRSP permco and permno match data 
-- **patent_number_cpc_2020.csv**: Patent-CPC class match data
+- **KPSS_2022.csv**: Patent level panel data from 1926 to 2022
+- **Match_patent_permco_permno_2022.csv**: Patent-CRSP permco and permno match data 
+- **Match_patent_cpc_2022.csv**: Patent-CPC class match data
 
 For the patent level panel data, the variable definitions are:
 
 | Variable name  | Definition                                         | 
 | :---------------|:------------------------------------------------- | 
-| patent_num     | Patent number                                      |
+| patent_num     | Patent ID number                                   |
 | permno         | CRSP permno                                        |  
 | issue_date     | Issue date of patent (mm/dd/yyyy)                  |  
 | filing_date     | Filing date of patent application(mm/dd/yyyy)              |   
@@ -39,7 +41,7 @@ For the patent-permco-permno match data, the variable definitions are:
 
 | Variable name  | Definition                                         | 
 | :--------------|:-------------------------------------------------- | 
-| patent_num     | Patent number                                      |
+| patent_num     | Patent ID number                                   |
 | permco         | CRSP permco                                        | 
 | permno         | CRSP permno                                        |  
 
@@ -47,7 +49,7 @@ For the patent-CPC class match data, the variable definitions are:
 
 | Variable name  | Definition                                            | 
 | :--------------|:------------------------------------------------------- | 
-| patent_num    | Patent number                                    |
+| patent_num    | Patent ID number                                    |
 | cpc            | Full CPC class of patent                           | 
 
 
@@ -65,13 +67,13 @@ For the patent-CPC class match data, the variable definitions are:
 
 	c)	Re-estimation of the parameters needed to compute the KPSS value: 
 
-	- the parameter gamma is re-estimated in the full sample to 2020: the new estimate is 0.0138, while the estimate of gamma in QJE paper is 0.0146.
+	- The newly estimated gamma in the 2022 updated sample is 0.0143. This estimate was 0.0142 in 2021, 0.0138 in 2020, and 0.0146 in the QJE paper.
 
-	- stock return volatility is now computed over the last 52 weeks (as opposed to the previous calendar year in the QJE paper)
+	- Stock return volatility is now computed over the last 52 weeks for stocks with at least 20 days non-missing data (as opposed to the previous calendar year in the QJE paper).
 
-4. The number of forward citations is updated to 2020.
+3. During 2022, there are in total 325,023 newly issued patents by USPTO. Among them, 87,312 patents are finally added to our KPSS dataset after being matched with public firm information and excluding 31,145 patents that are linked to multiple stocks.
 
-5. Till 2020, 3319 patents do not have any CPC class information. These patents have missing CPC class value in the patent-CPC class match data.
+4. The number of forward citations is also updated to 2022. 
 
 
 ## Contact:
