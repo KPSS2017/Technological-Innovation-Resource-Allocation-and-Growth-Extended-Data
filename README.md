@@ -15,7 +15,7 @@ The version released on September 6, 2020 updates filing date information for ea
 
 The version released on June 8, 2021 is the latest data that updates and adds data for 2020.
 
-The version release on May 2, 2023 is the latest data that updates until the end of 2022.
+The version released on May 2, 2023 is the latest data that updates until the end of 2022.
 
 #### Data Description:
 
