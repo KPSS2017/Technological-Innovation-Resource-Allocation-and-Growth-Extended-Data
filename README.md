@@ -77,6 +77,8 @@ For the patent-CPC class match data, the variable definitions are:
 
 5. The number of forward citations is also updated to 2022. 
 
+6. Our datasets may exceed the download limit of GitHub Web. You may need to Git Clone this repository to local in order to download the csv zipped files.
+
 
 ## Contact:
 
