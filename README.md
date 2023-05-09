@@ -80,6 +80,8 @@ For the patent-CPC class match data, the variable definitions are:
 7. The datasets we provided on GitHub may exceed the download limit of your web browser. You may need to Git Clone this repository to local machine in order to download the zipped csv files in such cases.
 
 
+6. The datasets we provided on GitHub may exceed the download limit of your web browser. You may need to Git Clone this repository to local machine in order to download the zipped csv files in such cases.
+
 
 ## Contact:
 
