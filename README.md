@@ -15,7 +15,8 @@ The version released on September 6, 2020 updates filing date information for ea
 
 The version released on June 8, 2021 is the latest data that updates and adds data for 2020.
 
-The version released on May 2, 2023 is the latest data that updates until the end of 2022.
+The version released on May 10, 2023 is the latest data that updates until the end of 2022.
+
 
 #### Data Description:
 
@@ -71,13 +72,11 @@ For the patent-CPC class match data, the variable definitions are:
 
 	- Stock return volatility is now computed over the last 52 weeks for stocks with at least 20 days non-missing data (as opposed to the previous calendar year in the QJE paper).
 
-4. The final KPSS dataset till 2022 contains 3,160,453 unique patents. During 2022, there are in total 325,023 newly issued patents by USPTO. Among them, 87,312 patents are finally added to our KPSS dataset after being matched with public firm information and excluding 31,145 patents that are linked to multiple stocks. 
+4. Till 2022, there are 3,260 patents in KPSS dataset do not have CPC information; they're reflected as missing values in the match Patent-CPC dataset. 
 
-5. Till 2022, there are 3,260 patents in KPSS dataset do not have CPC information; they're reflected as missing values in the match Patent-CPC dataset. (Note that in 2021, we improved our matching by dropping patents linked to multiple stocks and imposing a 20 days threshold of rolling variance calculation, the number of missing-CPC patents now are less than what we had in 2020.)
+5. The number of forward citations is also updated to 2022. 
 
-6. The number of forward citations is also updated to 2022. 
-
-7. The datasets we provided on GitHub may exceed the download limit of your web browser. You may need to Git Clone this repository to local machine in order to download the zipped csv files in such cases.
+6. The datasets we provided on GitHub may exceed the download limit of your web browser. You may need to Git Clone this repository to local machine in order to download the zipped csv files in such cases.
 
 ## Contact:
 
