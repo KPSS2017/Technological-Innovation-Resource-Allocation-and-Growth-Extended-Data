@@ -1,4 +1,4 @@
-# Extended Data (till 2022) following Kogan, L., Papanikolaou, D., Seru, A. and Stoffman, N., 2017 
+# Extended Data (till 2023) following Kogan, L., Papanikolaou, D., Seru, A. and Stoffman, N., 2017 
  
 This data provides an updated data series for KPSS values and forward citations, a patent number to the CRSP "permno" match and a patent number to CPC class match following the paper **Kogan, L., Papanikolaou, D., Seru, A. and Stoffman, N., 2017. Technological innovation, resource allocation, and growth. Quarterly Journal of Economics, 132(2), pp. 665-712.** The paper is available at https://academic.oup.com/qje/article/132/2/665/3076284.
  
@@ -17,14 +17,16 @@ The version released on June 8, 2021 is the latest data that updates and adds da
 
 The version released on May 10, 2023 is the latest data that updates until the end of 2022.
 
+The version released on Oct 7, 2024 is the latest data that updates until the end of 2023.
+
 
 #### Data Description:
 
 We provide three data sets constructed from the paper here:
 
-- **KPSS_2022.csv**: Patent level panel data from 1926 to 2022
-- **Match_patent_permco_permno_2022.csv**: Patent-CRSP permco and permno match data from 1926 to 2022
-- **Match_patent_cpc_2022.csv**: Patent-CPC class match data from 1926 to 2022
+- **KPSS_2023.csv**: Patent level panel data from 1926 to 2023
+- **Match_patent_permco_permno_2023.csv**: Patent-CRSP permco and permno match data from 1926 to 2023
+- **Match_patent_cpc_2023.csv**: Patent-CPC class match data from 1926 to 2023
 
 For the patent level panel data, the variable definitions are:
 
@@ -68,13 +70,13 @@ For the patent-CPC class match data, the variable definitions are:
 
 	c)	Re-estimation of the parameters needed to compute the KPSS value: 
 
-	- The newly estimated gamma in the 2022 updated sample is 0.0143. This estimate was 0.0142 in 2021, 0.0138 in 2020, and 0.0146 in the QJE paper.
+	- The newly estimated gamma in the 2023 updated sample is 0.0155. This estimate was 0.0143 in 2022, 0.0142 in 2021, 0.0138 in 2020, and 0.0146 in the QJE paper.
 
 	- Stock return volatility is now computed over the last 52 weeks for stocks with at least 20 days non-missing data (as opposed to the previous calendar year in the QJE paper).
 
-4. Till 2022, there are 3,260 patents in KPSS dataset do not have CPC information; they're reflected as missing values in the match Patent-CPC dataset. 
+4. Till 2023, there are 3,308 patents in KPSS dataset do not have CPC information; they're reflected as missing values in the match Patent-CPC dataset. 
 
-5. The number of forward citations is also updated to 2022. 
+5. The number of forward citations is also updated to 2023. 
 
 6. The datasets we provided on GitHub may exceed the download limit of your web browser. You may need to Git Clone this repository to local machine in order to download the zipped csv files in such cases.
 
